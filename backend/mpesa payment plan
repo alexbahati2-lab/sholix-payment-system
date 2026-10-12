@@ -1,0 +1,24 @@
+Our M-Pesa integration plan
+
+1. STK Push
+Customer-initiated prompt
+The business enters the amount and customer's phone number, or the customer starts checkout. Safaricom sends a payment prompt, and SPS processes the resulting callback.
+
+
+
+
+2. Paybill and Till (C2B)
+Direct customer payment
+Customers pay using the business's configured Paybill or Till. Safaricom sends SPS a notification that can be recorded without manual entry.
+
+
+
+
+3. Reliable payment records
+SPS stores the M-Pesa receipt, amount, time, phone number, payment reference and processing status. Duplicate callbacks must not create duplicate payments.
+
+
+
+
+4. Live business dashboard
+Display confirmed collections, pending payments, failed payments and unmatched Paybill/Till receipts.
